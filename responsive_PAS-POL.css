@@ -1,0 +1,322 @@
+@media (max-width: 900px) {
+  /*-----------------------header部分-----------------------*/
+  header {
+    padding: 0;
+  }
+
+  .bg-slider {
+    position: relative;
+  }
+
+  .header-logo {
+    display: none;
+  }
+  .responsive-logo {
+    display: block;
+  }
+
+  .responsive-logo img {
+    width: 190px;
+    height: auto;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .header-list {
+    display: none;
+  }
+
+  .header-menu {
+    display: block;
+  }
+
+  .menu {
+    margin: 0;
+  }
+
+  .responsive-menu {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    opacity: 0.7;
+  }
+
+  .under {
+    width: 70px;
+  }
+
+  /*----------------------------------PRODUCT部分-------------------------------------*/
+  .product-zone {
+    padding: 0 5%;
+  }
+
+  .main-title {
+    font-size: 28px;
+  }
+
+  .main-more a {
+    font-size: 14px;
+    margin-top: 12px;
+    padding: 12px 0px 12px 59px;
+  }
+
+  .main-more span {
+    font-size: 18px;
+    margin-left: 45px;
+    padding-right: 4px;
+  }
+
+  .product-contents {
+    display: block;
+  }
+
+  .contents-items {
+    max-width: 900px;
+    padding-bottom: 40px;
+  }
+
+  .item-title {
+    margin: 0;
+    max-width: 500px;
+  }
+
+  .flex-item {
+    display: flex;
+    justify-content: left;
+  }
+
+  /*----------------------------------news部分----------------------------------*/
+  .news-zone {
+    padding: 0 5%;
+  }
+
+  .backtop {
+    bottom: -100px;
+  }
+}
+
+@media (max-width: 700px) {
+  section {
+    max-width: 500px;
+    text-align: left;
+  }
+
+  .section-zone {
+    height: 850px;
+  }
+
+  .section-title {
+    padding-top: 80px;
+    padding-bottom: 20px;
+  }
+
+  .product-zone {
+    padding: 0 8%;
+  }
+
+  .main-header {
+    margin-top: 30px;
+  }
+
+  .main-more a {
+    padding: 13px 0px 13px 59px;
+  }
+
+  .product-contents {
+    padding-top: 10px;
+  }
+
+  .contents-items img {
+    max-width: 35%;
+  }
+
+  .news-zone {
+    padding: 0 8%;
+  }
+
+  .news-image {
+    max-width: 40%;
+    height: 130px;
+  }
+
+  .sns-zone p {
+    margin: 0 5px;
+  }
+
+  .share-zone a {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 660px) {
+  .footer-contents {
+    display: block;
+    max-width: 580px;
+    margin: 0 auto;
+  }
+
+  .footer-logo {
+    padding: 40px 40px 20px 40px;
+  }
+
+  .copyright {
+    text-align: right;
+    padding-top: 0;
+    padding-right: 50px;
+    padding-bottom: 25px;
+  }
+
+  .copyright p {
+    font-size: 11px;
+  }
+
+  @media (max-width: 580px) {
+    .line {
+      display: block;
+    }
+
+    .share-btn {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      padding: 0 40px;
+    }
+
+    .share-btn a {
+      width: 100%;
+      margin: 0;
+    }
+
+    .sns-zone p {
+      margin: 0;
+    }
+
+    .footer-list {
+      flex-direction: column;
+      padding: 0;
+    }
+
+    .footer-list li {
+      text-align: center;
+      border-top: 1px solid #fff;
+      padding: 20px 0;
+    }
+
+    .footer-contents {
+      text-align: center;
+    }
+  }
+
+  @media (max-width: 500px) {
+    section {
+      padding: 0 7%;
+    }
+
+    .section-zone {
+      height: 700px;
+    }
+
+    .section-title {
+      font-size: 36px;
+      letter-spacing: 0.1em;
+    }
+
+    .section-text {
+      font-size: 16px;
+    }
+
+    .brand-name {
+      width: 160px;
+    }
+
+    .main-header {
+      display: block;
+    }
+
+    .main-more {
+      display: none;
+    }
+
+    .main-title {
+      text-align: center;
+      padding-top: 20px;
+    }
+
+    .under {
+      margin: 0 auto;
+    }
+
+    .flex-item {
+      flex-direction: column;
+    }
+
+    .contents-items img {
+      max-width: 100%;
+    }
+
+    .item-title {
+      width: 80%;
+      font-size: 18px;
+      padding-top: 0%;
+      padding-left: 2em;
+    }
+
+    .responsive-more {
+      display: block;
+    }
+
+    .news-zone {
+      padding: 30px 6% 0 6%;
+    }
+
+    .news-link {
+      margin-bottom: 30px;
+    }
+
+    .news-items {
+      flex-direction: column;
+    }
+
+    .news-image {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .text {
+      padding-top: 15px;
+      padding-left: 0;
+    }
+
+    .text h3 {
+      letter-spacing: 0.1em;
+    }
+
+    .text p {
+      font-size: 10px;
+    }
+
+    article {
+      display: none;
+    }
+
+    .backtop {
+      bottom: -30px;
+    }
+  }
+
+  .copyright {
+    text-align: center;
+    max-width: 350px;
+    margin: 0 auto;
+    padding-right: 0;
+    line-height: 1.5em;
+  }
+
+  @media (max-width: 360px) {
+    .share-btn a {
+      font-size: 10px;
+    }
+  }
+}
